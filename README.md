@@ -296,23 +296,7 @@ logging.basicConfig(level=logging.DEBUG)
    echo "GEMINI_API_KEY=your_key_here" > .env
    ```
 
-### If You Accidentally Exposed an API Key
-1. **Immediately regenerate** your API key at [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. **Update your local environment** with the new key
-3. **Check GitHub Security tab** for any alerts
 
-### Safe Development Practices
-- ✅ Use `.env` files for local development
-- ✅ Set environment variables in production
-- ✅ Add sensitive files to `.gitignore`
-- ❌ Never hardcode API keys in source code
-
-- [ ] Web search integration for real-time company research
-- [ ] Multiple LLM support (OpenAI, Claude, etc.)
-- [ ] Advanced skill extraction using domain-specific models
-- [ ] Interactive web interface
-- [ ] Integration with job boards APIs
-- [ ] Personalized recommendations based on user background
 
 ## 📝 Contributing
 
