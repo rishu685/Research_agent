@@ -14,20 +14,6 @@ This AI agent takes a company name, role, and job description as input and produ
 
 ## 🚀 Quick Demo
 
-### Prerequisites
-1. **Get a free Gemini API key** from [Google AI Studio](https://makersuite.google.com/app/apikey)
-2. **Set up environment variable** (recommended for security):
-   ```bash
-   export GEMINI_API_KEY="your_actual_api_key_here"
-   ```
-   
-   Or create a `.env` file:
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your API key
-   ```
-
-### Quick Start
 ```bash
 # Clone the repository
 git clone https://github.com/rishu685/Research_agent.git
@@ -36,15 +22,11 @@ cd Research_agent
 # Install dependencies
 pip install -r requirements.txt
 
-# Set your API key (choose one method)
-export GEMINI_API_KEY="your_api_key_here"  # Option 1: Environment variable
-# OR edit .env file with your key                # Option 2: .env file
-
 # Run the interactive script
 python3 interview_prep_agent.py
 ```
 
-**🔒 Security Note**: Never commit API keys to version control. Always use environment variables or `.env` files that are gitignored.
+**Live Demo**: Run the script and select from pre-loaded examples or input your own job description!
 
 ## 🏗️ Architecture
 
@@ -296,6 +278,10 @@ rounds = [
 import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
+
+## 🚀 Future Enhancements
+
+- [ ] Web search integration for real-time company research
 
 ## � Security & API Key Management
 
