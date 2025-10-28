@@ -1,0 +1,24 @@
+# Ignore environment files with sensitive data
+.env
+*.env
+
+# Ignore API key files
+api_keys.txt
+secrets.txt
+
+# Ignore temporary files
+*.tmp
+*.temp
+.DS_Store
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore output files that might contain sensitive data
+*roadmap*.json
+demo_*.json
